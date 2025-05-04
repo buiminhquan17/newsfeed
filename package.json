@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "src/App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch src/scss/ --output src/public/css/"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +17,8 @@
     "express-handlebars": "^8.0.1",
     "express-session": "^1.18.1",
     "express-validator": "^7.2.1",
-    "mysql2": "^3.14.1"
+    "mysql2": "^3.14.1",
+    "node-sass": "^9.0.0"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
